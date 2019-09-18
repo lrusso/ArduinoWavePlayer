@@ -1,6 +1,6 @@
 # Arduino Wave Player
 
-Sketch for playing audio waves in Arduino Mega 1280/2560.
+Sketch and schematic for playing audio waves in Arduino Mega 1280/2560.
 
 ![alt screenshot](https://raw.githubusercontent.com/lrusso/ArduinoWavePlayer/master/ArduinoWavePlayer.png)
 

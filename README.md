@@ -23,6 +23,8 @@ wav2c myfinalwave.wav
 
 4) Paste that content into the array SoundData located in the file Sample/SoundData.h
 
+5) Update the SoundDataLength variable in the file Sample/Sample.ino acording to the length of your audio wave.
+
 ## Available at:
 
 https://playground.arduino.cc/Code/PCMAudioTimer5/

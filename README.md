@@ -21,7 +21,7 @@ wav2c myfinalwave.wav
 
 3) Copy the content of the array that is in the new file myfinalwave.c
 
-4) Paste that content into the array SoundData[] located in the file Sample/SoundData.h
+4) Paste that content into the array SoundData located in the file Sample/SoundData.h
 
 ## Available at:
 

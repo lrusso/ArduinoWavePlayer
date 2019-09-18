@@ -7,17 +7,21 @@ Sketch and schematic for playing audio waves in Arduino Mega 1280/2560.
 
 ## How to Guide:
 
-Convert your WAV file into a new 8 bits, 8000 MHz and Mono WAV file.
+1) Convert your WAV file into a new 8 bits, 8000 MHz and Mono WAV file.
 
 ```
 sox mywave.wav -c 1 -b 8 -r 8000 myfinalwave.wav
 ```
 
-Convert the new WAV file into an array.
+2) Convert the new WAV file into an array.
 
 ```
 wav2c myfinalwave.wav
 ```
+
+3) Copy the content of the array that is in the new file myfinalwave.c
+
+4) Paste that content into the array SoundData[] located in the file Sample/SoundData.h
 
 ## Available at:
 

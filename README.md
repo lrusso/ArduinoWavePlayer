@@ -13,7 +13,7 @@ Sketch and schematic for playing audio waves in Arduino Mega 1280/2560.
 sox mywave.wav -c 1 -b 8 -r 8000 myfinalwave.wav
 ```
 
-2) Convert the new WAV file into an array.
+2) Convert the new WAV file into a C file.
 
 ```
 wav2c myfinalwave.wav
